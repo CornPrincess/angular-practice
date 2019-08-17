@@ -1,3 +1,9 @@
+/*
+ 1. 加载根模块
+ 2. 启动执行模块系统
+ 整个模块系统的入口
+ */
+
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
