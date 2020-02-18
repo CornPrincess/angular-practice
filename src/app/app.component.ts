@@ -9,9 +9,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-practice';
-  count = 1;
-  increment = function() {
-    this.count++;
-  };
+  title = 'Tour of heroes';
 }

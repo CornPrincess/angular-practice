@@ -1,22 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooComponent } from './foo/foo.component';
-import { TooComponent } from './foo/too/too.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   // 组装模块资源：组件、指令、服务
   declarations: [
     AppComponent,
-    FooComponent,
-    TooComponent
+    HeroesComponent,
   ],
+  // 导入依赖模块
   imports: [
-    // 导入依赖模块
     BrowserModule,
-    AppRoutingModule
+    FormsModule
   ],
   providers: [],
   // 指定启动的根组件
